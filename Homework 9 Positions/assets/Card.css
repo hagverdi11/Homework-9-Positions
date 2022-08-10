@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.main .singer {
+
+    height: 350px;
+    width: 300px;
+    border: 6px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+
+
+}
+
+.main .singer .image{
+    position: relative;
+    right: 3px;
+    top: -3px;
+    z-index: -1;
+}
+
+
+.main .singer .image img{
+    width: 295px;
+    height: 345px;
+    border-radius: 10px;
+
+}
+
+.main .singer .text1{
+    position: relative;
+    bottom: 105px;
+    color: white;
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.main .singer .text2{
+    position: relative;
+    bottom: 100px;
+    color: white;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.main .singer .facebook{
+    color: white;
+    position: relative;
+    bottom: 80px;
+    left: -100px;
+    
+}
+
+.main .singer .instagram{
+    color: white;
+    position: relative;
+    bottom: 115px;
+    left: -40px;
+    
+}
+
+.main .singer .youtube{
+    color: white;
+    position: relative;
+    bottom: 133px;
+    left: 20px;
+    
+}
+
+.main .singer .youtube{
+    color: white;
+    position: relative;
+    bottom: 133px;
+    left: 20px;
+    
+}
+
+.main .singer .twitter{
+    color: white;
+    position: relative;
+    bottom: 98px;
+    left: 85px;
+    
+}
+
+.main .singer .twitter :hover{
+    color: rgb(51, 109, 185);
+    cursor: pointer;
+}
+
+.main .singer .facebook :hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.main .singer .instagram :hover{
+    color: rgb(173, 60, 126);
+    cursor: pointer;
+}
+
+.main .singer .youtube :hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+    
+
+
+
+
+
+
+
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: blue;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  left: -300px;
+  top: 230px;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 300px;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+
+
+
+
